@@ -1,0 +1,17 @@
+.image-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.image-container img {
+    width: 300px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.image-container p {
+    font-size: 20px; 
+}
