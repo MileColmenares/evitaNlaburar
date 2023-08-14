@@ -1,13 +1,14 @@
 <?php
     include("conexion.php");
-    $texto = $_POST['texto'];
-    $imagen = addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
+    $id = $_REQUEST['id'];
+    
     
 
-    $query = "INSERT INTO administrador (texto,imagen) VALUES('$texto','$imagen')";
+    $query = "DELETE FROM administrador WHERE id='$id'";
     $resultado= $conexion->query($query);
 
     if($resultado){
+        
         header ("location:mostrar.php");
     }
     else{

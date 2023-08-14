@@ -7,9 +7,9 @@
 </head>
 <body>
     <center><br/><br/><br/>
-        <form action ="#" method="POST" enctype="multipart/form-data">
-            <input type="text"name="nombre"placeholder="nombre"value=""/><br/><br/>
-            <input type="file"name="imagen"/><br/><br/>
+        <form action ="guardar.php" method="POST" enctype="multipart/form-data">
+            <input type="text" REQUIRED name="nombre"placeholder="nombre"value=""/><br/><br/>
+            <input type="file" REQUIRED name="imagen"/><br/><br/>
             <input type="submit"value="aceptar"/>
         </form>
     </center>
