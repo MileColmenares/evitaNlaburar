@@ -1,25 +1,17 @@
 <?php
 
-include ("conexion.php");
-if(isset($_POST['registrar'])){
-
-    if(strlen($_POST['usuario']) >=1 && strlen($_POST['password'])  >=1 ){
-
-    $nombre = trim($_POST['usuario']);
-    $password = trim($_POST['password']);
-
-    $consulta= "INSERT INTO usuarios (usuario, password)
-    VALUES ('$nombre','$password' )";
-
-    mysqli_query($conexion, $consulta);
-    mysqli_close($conexion);
-
-    header('Location: admin.php');
-  }
-}
+$usuario_session = $_POST['usuario'];
+$password_session= $_POST['password'];
 
 
 
+
+if($usuario_session=='admin' && $password_session=='espe363'){
+  $_SESSION['administrador'] = $usuario_session;
+  header("Location: admin.php#session");
+} else {
+  echo "incorrecto";
+}  
 
 
 

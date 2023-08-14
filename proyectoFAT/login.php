@@ -12,48 +12,22 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-<body id="page-top">
+<div class="login">
+        <h1>Iniciar sesiòn</h1>
 
-
-<form action="validar.php" method="POST">
-<div id="login" >
-        <div class="container">
-            <div id="login-row" class="row justify-content-center align-items-center">
-                <div id="login-column" class="col-md-6">
-                    <div id="login-box" class="col-md-12">
-                    
-                            <br>
-                            <br>
-                            <h3 class="text-center">Iniciar sesiòn</h3>
-                            <div class="form-group">
-                            <label for="Usuario" class="form-label">Usuario</label>
-                            <input type="text"  id="usuario" name="usuario" class="form-control" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="password">Contraseña:</label><br>
-                                <input type="password" name="password" id="password" class="form-control" required>
-                            </div>
-                      
-                        
-                           <br>
-
-                                <div class="mb-3">
-                                    
-                               <input type="submit" value="Ingresar"class="btn btn-success" 
-                               name="registrar">
-                               
-                               
-                            </div>
-                            </div>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <form action="validar.php" method="POST">
+            <label for="usuario">
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="usuario"
+            placeholder="Usuario" id="usuario" required>
+            <label for="password">
+                <i class="fas fa-lock"></i>
+            </label>
+            <input type="password" name="password"
+            placeholder="Contraseña" id="password" required>
+            <input type="submit" value="Acceder">
+        </form>
     </div>
-    </form>
-</body>
-</html>
+    
+
