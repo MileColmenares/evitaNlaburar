@@ -1,0 +1,33 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    background-color: rgb(191, 177, 238);
+    width: 100%;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    background-color: rgb(120, 89, 221);
+    width: 50%;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    background-color: rgb(82, 61, 150);
+    width: 50%;
+}
