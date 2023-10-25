@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eedcc8;
+    padding: 0;
+}
+.page-header {
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header img {
+    position: absolute;
+    top: 1px; /* Ajusta la posición vertical del logo según sea necesario */
+    left: 10px; /* Ajusta la posición horizontal del logo según sea necesario */
+    width: 80px; /* Ajusta el tamaño de tu logo según sea necesario */
+    margin-right: 10px; /* Espacio entre el logo y el título */
+    border-radius: 80%;
+}
+
+.header-title {
+    color: #333;
+    font-size: 32px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: beige; /* Cambia el fondo del contenedor a beige */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.faq-section {
+    background-color: #fff; /* Fondo blanco para cada sección de preguntas */
+    margin-bottom: 30px;
+    padding: 20px; /* Espaciado interno para cada sección */
+}
+
+.faq-title {
+    color: #555;
+    font-size: 28px;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-list li {
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.faq-list li strong {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+.payment-methods img {
+    width: 70px;
+    margin-right: 10px;
+}
+p{
+    color:brown;
+}

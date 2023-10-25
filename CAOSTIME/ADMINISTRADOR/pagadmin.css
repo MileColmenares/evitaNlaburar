@@ -1,0 +1,44 @@
+/* Estilo del cuerpo de la página */
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+h1 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo de los títulos */
+h2 {
+    color: #333;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo de las celdas de la tabla */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo de los enlaces de acción */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #e74c3c;
+}

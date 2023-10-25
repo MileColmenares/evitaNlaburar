@@ -1,0 +1,83 @@
+User
+body {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.producto-contenedor {
+    border: 2px solid #000000; /* Agrega un borde de 2 píxeles de grosor y color negro al contenedor */
+    border-radius: 5px; /* Agrega esquinas redondeadas al borde del contenedor */
+    padding: 10px; /* Espacio interno dentro del contenedor */
+    text-align: center;
+}
+
+.producto img {
+    width: 200px; /* Establece el ancho fijo para todas las imágenes */
+    height: 200px; /* Establece la altura fija para todas las imágenes */
+    display: block; /* Asegura que la imagen sea un elemento en bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.producto h2, .producto p {
+    margin: 10px 0; /* Agrega espacio entre el título y los párrafos */
+}
+
+.producto-contenedor {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px; /* Reduce el espacio interno del recuadro */
+    margin: 2px 20px; /* Reduce el espacio externo arriba y abajo y a los lados */
+    text-align: center;
+}
+
+.producto-detalle {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 4px; /* Reduce el espacio interno del recuadro de detalle */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255); /* Cambia el color de fondo de toda la página a claro */
+}
+
+h1 {
+    color: rgb(0, 0, 0); /* Cambia el color del titulo*/
+}
+
+.producto h2 {
+    color: rgb(0, 0, 0); /* Cambia el color de los títulos a rojo */
+}
+
+.producto p {
+    color: rgb(0, 0, 0); /* Cambia el color de las descripciones y precios a azul */
+}
+
+/* Estilizar el botón "Agregar al carrito" */
+button {
+    background-color: #371413; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px 20px; /* Añadir espacio alrededor del texto del botón */
+    border: none; /* Quitar el borde del botón */
+    border-radius: 15px; /* Agregar esquinas redondeadas */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+/* Cambiar el color del botón al pasar el cursor */
+button:hover {
+    background-color: #834240; /* Color de fondo más oscuro al pasar el cursor */
+}
